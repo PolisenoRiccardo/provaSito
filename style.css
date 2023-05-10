@@ -1,6 +1,10 @@
-p  {
+.divo {
     margin: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
 }
+
 
 img {
     width: 500;
