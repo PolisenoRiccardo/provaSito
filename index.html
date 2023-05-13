@@ -22,9 +22,9 @@
 <body>
     
     <div class="divo">
-    <p>Inserisci il tempo in minuti: </p><input type="number" id="minuti">
+    <p>Inserisci il tempo in minuti: </p><input type="number" id="minuti" pattern="\d*">
     <button type="submit" onclick="percMin()" id="butMin">Conferma</button>
-    <p>Inserisci il tempo in ore: </p><input type="number" id="ore">
+    <p>Inserisci il tempo in ore: </p><input type="number" id="ore" pattern="\d*">
     <button type="submit" onclick="percOre()" id="buttOre">Conferma</button>
     <p>Percentuale dei minuti: <span id="PercentualeMinuti"></span></p>
     <p>Percentuale delle ore: <span id="PercentualeOre"></span></p>
