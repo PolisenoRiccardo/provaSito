@@ -34,7 +34,6 @@
         function percMin() {
             let minuti = 0
             let input = parseInt(document.getElementById("minuti").value);
-
             if (!(isNaN(input))) {
             minuti = input0
             document.getElementById("PercentualeMinuti").innerHTML = minuti + ' minuti = ' + ((minuti/1440)*100).toFixed(1) + '% della giornata.'
@@ -44,7 +43,7 @@
         }
         function percOre() {
             let ore = 0
-            let input = parseInt(document.getElementById("minuti").value);
+            let input = parseInt(document.getElementById("ore").value);
             if (!(isNaN(input))) {
                 ore = input
                 document.getElementById("PercentualeOre").innerHTML = ore + ' ore = ' + ((ore/24)*100).toFixed(1) + '% della giornata.'
